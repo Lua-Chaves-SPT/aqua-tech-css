@@ -145,7 +145,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .card-login{
@@ -156,13 +155,13 @@ body{
     background-color:#dcdcdc;
     border-radius: 10px;
     width: 600px;
-    height: 200px;
+    height: 230px;
 }
-
 
 .card-login h2{
     color: palevioletred;
 }
+
 .formulario{
     display: flex;
     justify-content: center;
@@ -171,11 +170,19 @@ body{
     flex-direction: column;
 }
 
-.campo{
-
-    background-color:#ed145b ;
-    width: 75%;
+.formulario .campo{
+    display: flex;
+    width: 500px;
 }
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
  .campo input{
     text-align: center ;
     display: flex;
@@ -183,7 +190,56 @@ body{
     align-items: center;
     flex-direction: column;
     border:solid ;
-    border-radius: 1px;
+    border-radius: 5px;
     border-color: #32b9cd;
     width: 75%;
+    margin-bottom: 10px;
+    padding-top: 5px;
 }
+
+.card-login input{
+    padding: 5px;
+}
+
+.campo span{
+    font-weight: bold;
+}
+
+.card-login button{
+   background-color: #ed145b;
+   border: 2px #ed145b;
+   color: white;
+   font-weight: bold;
+}
+
+/* Fim da Página de Login */
+
+/* Inicio da página de cadastro */
+
+.card-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#dcdcdc;
+    border-radius: 10px;
+    width: 500px;
+    height: 450px;
+}
+
+.card-cadastro h2{
+    color: palevioletred;
+}
+
+.card-cadastro input{
+    padding: 7px;
+}
+
+.card-cadastro button{
+   background-color: #ed145b;
+   border: 2px #ed145b;
+   color: white;
+   font-weight: bold;
+}
+
+
