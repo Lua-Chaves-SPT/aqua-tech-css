@@ -156,6 +156,7 @@ body{
     border-radius: 10px;
     width: 600px;
     height: 230px;
+
 }
 
 .card-login h2{
@@ -177,10 +178,10 @@ body{
 
 .campo{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: start;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 25%;
 }
 
  .campo input{
@@ -203,6 +204,7 @@ body{
 
 .campo span{
     font-weight: bold;
+       text-align: left;
 }
 
 .card-login button{
